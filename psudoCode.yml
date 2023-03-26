@@ -1,0 +1,23 @@
+START
+
+PROMPT for no_of_items
+
+SET sum to 0
+SET average = 0.0
+
+INITIALIZE number_series array WITH size of no_of_items
+
+FOR position = 0 to no_of_items)
+    PROMPT for number at position
+    SET number_series[position] to item 
+    SET position to position + 1
+
+FOR position = 0 to no_of_items)
+    SET sum to sum + number_series[position]
+    SET position  to position + 1
+    SET average to sum divide by no_of_items
+
+DISPLAY sum
+DISPLAY average
+
+STOP
